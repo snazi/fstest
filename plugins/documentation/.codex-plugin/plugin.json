@@ -1,0 +1,26 @@
+{
+  "name": "documentation",
+  "version": "2.0.2",
+  "description": "Documentation skills \u2014 MOPs, feature docs, handover docs, API docs, architecture docs",
+  "author": {
+    "name": "Thinking Machines Data Science Inc.",
+    "email": "hello@thinkingmachin.es",
+    "url": "https://github.com/thinkingmachines"
+  },
+  "homepage": "https://github.com/thinkingmachines/agents",
+  "repository": "https://github.com/thinkingmachines/agents",
+  "license": "UNLICENSED",
+  "keywords": [
+    "thinking-machines",
+    "documentation",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "TM Documentation",
+    "shortDescription": "Documentation skills \u2014 MOPs, feature docs, handover docs, API docs, architecture docs",
+    "developerName": "Thinking Machines Data Science Inc.",
+    "category": "Developer Tools",
+    "logo": "./assets/logo.png"
+  }
+}

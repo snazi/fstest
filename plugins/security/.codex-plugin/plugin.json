@@ -1,0 +1,26 @@
+{
+  "name": "security",
+  "version": "2.0.2",
+  "description": "Security assessment \u2014 vulnerability analysis, penetration testing, and dependency scanning",
+  "author": {
+    "name": "Thinking Machines Data Science Inc.",
+    "email": "hello@thinkingmachin.es",
+    "url": "https://github.com/thinkingmachines"
+  },
+  "homepage": "https://github.com/thinkingmachines/agents",
+  "repository": "https://github.com/thinkingmachines/agents",
+  "license": "UNLICENSED",
+  "keywords": [
+    "thinking-machines",
+    "security",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "TM Security",
+    "shortDescription": "Security assessment \u2014 vulnerability analysis, penetration testing, and dependency scanning",
+    "developerName": "Thinking Machines Data Science Inc.",
+    "category": "Security",
+    "logo": "./assets/logo.png"
+  }
+}

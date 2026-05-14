@@ -1,0 +1,27 @@
+{
+  "name": "operations",
+  "version": "2.0.2",
+  "description": "Team operations \u2014 daily check-ins, onboarding, and CLI setup",
+  "author": {
+    "name": "Thinking Machines Data Science Inc.",
+    "email": "hello@thinkingmachin.es",
+    "url": "https://github.com/thinkingmachines"
+  },
+  "homepage": "https://github.com/thinkingmachines/agents",
+  "repository": "https://github.com/thinkingmachines/agents",
+  "license": "UNLICENSED",
+  "keywords": [
+    "thinking-machines",
+    "operations",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "TM Operations",
+    "shortDescription": "Team operations \u2014 daily check-ins, onboarding, and CLI setup",
+    "developerName": "Thinking Machines Data Science Inc.",
+    "category": "Productivity",
+    "logo": "./assets/logo.png"
+  }
+}

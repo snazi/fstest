@@ -1,0 +1,27 @@
+{
+  "name": "tools",
+  "version": "2.0.2",
+  "description": "Tool integrations \u2014 Git, Google Workspace, Slack, browser automation, diagrams",
+  "author": {
+    "name": "Thinking Machines Data Science Inc.",
+    "email": "hello@thinkingmachin.es",
+    "url": "https://github.com/thinkingmachines"
+  },
+  "homepage": "https://github.com/thinkingmachines/agents",
+  "repository": "https://github.com/thinkingmachines/agents",
+  "license": "UNLICENSED",
+  "keywords": [
+    "thinking-machines",
+    "tools",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "TM Tools",
+    "shortDescription": "Tool integrations \u2014 Git, Google Workspace, Slack, browser automation, diagrams",
+    "developerName": "Thinking Machines Data Science Inc.",
+    "category": "Developer Tools",
+    "logo": "./assets/logo.png"
+  }
+}

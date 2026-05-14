@@ -1,0 +1,26 @@
+{
+  "name": "product",
+  "version": "2.0.2",
+  "description": "Product management \u2014 specification writing and product requirements",
+  "author": {
+    "name": "Thinking Machines Data Science Inc.",
+    "email": "hello@thinkingmachin.es",
+    "url": "https://github.com/thinkingmachines"
+  },
+  "homepage": "https://github.com/thinkingmachines/agents",
+  "repository": "https://github.com/thinkingmachines/agents",
+  "license": "UNLICENSED",
+  "keywords": [
+    "thinking-machines",
+    "product",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "TM Product",
+    "shortDescription": "Product management \u2014 specification writing and product requirements",
+    "developerName": "Thinking Machines Data Science Inc.",
+    "category": "Productivity",
+    "logo": "./assets/logo.png"
+  }
+}

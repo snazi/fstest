@@ -1,0 +1,44 @@
+services:
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    environment:
+      NODE_ENV: development
+      PORT: 3001
+      REDIS_URL: redis://redis:6379
+      CORS_ORIGIN: http://localhost:3000
+      SALE_ID: flashsale-001
+      SALE_STOCK: 500
+      SALE_START_AT: "2026-01-01T00:00:00.000Z"
+      SALE_END_AT: "2027-01-01T00:00:00.000Z"
+      IDEMPOTENCY_TTL_SECONDS: 86400
+    depends_on:
+      redis:
+        condition: service_healthy
+    ports:
+      - "3001:3001"
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    environment:
+      NODE_ENV: development
+      NEXT_PUBLIC_API_BASE_URL: http://localhost:3001
+      PORT: 3000
+    depends_on:
+      - api
+    ports:
+      - "3000:3000"

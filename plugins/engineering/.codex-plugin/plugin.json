@@ -1,0 +1,27 @@
+{
+  "name": "engineering",
+  "version": "2.0.2",
+  "description": "Engineering SDLC workflows \u2014 planning, execution, review, testing, and documentation",
+  "author": {
+    "name": "Thinking Machines Data Science Inc.",
+    "email": "hello@thinkingmachin.es",
+    "url": "https://github.com/thinkingmachines"
+  },
+  "homepage": "https://github.com/thinkingmachines/agents",
+  "repository": "https://github.com/thinkingmachines/agents",
+  "license": "UNLICENSED",
+  "keywords": [
+    "thinking-machines",
+    "engineering",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "TM Engineering",
+    "shortDescription": "Engineering SDLC workflows \u2014 planning, execution, review, testing, and documentation",
+    "developerName": "Thinking Machines Data Science Inc.",
+    "category": "Developer Tools",
+    "logo": "./assets/logo.png"
+  }
+}

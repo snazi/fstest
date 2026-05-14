@@ -1,0 +1,26 @@
+{
+  "name": "legal",
+  "version": "2.0.2",
+  "description": "Legal compliance \u2014 data risk assessment and license auditing for open-source dependencies",
+  "author": {
+    "name": "Thinking Machines Data Science Inc.",
+    "email": "hello@thinkingmachin.es",
+    "url": "https://github.com/thinkingmachines"
+  },
+  "homepage": "https://github.com/thinkingmachines/agents",
+  "repository": "https://github.com/thinkingmachines/agents",
+  "license": "UNLICENSED",
+  "keywords": [
+    "thinking-machines",
+    "legal",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "TM Legal",
+    "shortDescription": "Legal compliance \u2014 data risk assessment and license auditing for open-source dependencies",
+    "developerName": "Thinking Machines Data Science Inc.",
+    "category": "Security",
+    "logo": "./assets/logo.png"
+  }
+}

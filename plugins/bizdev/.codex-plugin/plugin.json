@@ -1,0 +1,26 @@
+{
+  "name": "bizdev",
+  "version": "2.0.2",
+  "description": "Business development \u2014 slide deck content and styling, SaaS research",
+  "author": {
+    "name": "Thinking Machines Data Science Inc.",
+    "email": "hello@thinkingmachin.es",
+    "url": "https://github.com/thinkingmachines"
+  },
+  "homepage": "https://github.com/thinkingmachines/agents",
+  "repository": "https://github.com/thinkingmachines/agents",
+  "license": "UNLICENSED",
+  "keywords": [
+    "thinking-machines",
+    "bizdev",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "TM Business Development",
+    "shortDescription": "Business development \u2014 slide deck content and styling, SaaS research",
+    "developerName": "Thinking Machines Data Science Inc.",
+    "category": "Productivity",
+    "logo": "./assets/logo.png"
+  }
+}
