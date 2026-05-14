@@ -136,3 +136,8 @@ Expected behavior:
 - No authentication/authorization (userId is trusted input).
 - No persistent audit store in this implementation.
 - Rate-limiting not enabled.
+
+## Additional docs
+
+- [design-decisions.md](docs/design-decisions.md)
+- [STRESS_TESTS_AND_EXPECTED_OUTCOMES.md](docs/STRESS_TESTS_AND_EXPECTED_OUTCOMES.md)
